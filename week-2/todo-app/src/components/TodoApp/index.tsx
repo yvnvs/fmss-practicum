@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Todo from "./Todo";
-import { v4 as uuidv4 } from "uuid";
+import { v4 as uuidv4 } from "../../../node_modules/@types/uuid";
 import List from "./List";
 import Footer from "./Footer";
 
