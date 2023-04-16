@@ -38,4 +38,4 @@ export const WeatherProvider = ({ children }) => {
     <WeatherContext.Provider value={values}>{children}</WeatherContext.Provider>
   );
 };
-export const useWeatherContext = () => useContext(WeatherContext);
+export default useWeatherContext = () => useContext(WeatherContext);

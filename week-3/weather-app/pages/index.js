@@ -1,3 +1,4 @@
+import React from "react";
 import { Inter } from "next/font/google";
 import Container from "./components/Container";
 import { WeatherProvider } from "./contexts/WeatherContext";
