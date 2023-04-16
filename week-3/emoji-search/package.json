@@ -11,6 +11,7 @@
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^14.4.3",
     "clipboard": "^2.0.4",
     "github-fork-ribbon-css": "^0.2.1",
     "react": "^16.8.6",
