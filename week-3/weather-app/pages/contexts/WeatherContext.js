@@ -25,7 +25,7 @@ export const WeatherProvider = ({ children }) => {
           res.list.filter((item) => item.dt_txt.includes("12:00:00"))
         )
       );
-  }, [city]);
+  }, [city, cities]);
 
   const values = {
     cities,
