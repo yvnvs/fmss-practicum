@@ -1,13 +1,11 @@
 import React from "react";
-
 import { useWeatherContext } from "../contexts/WeatherContext";
 import Image from "next/image";
 
 const Weather = () => {
-  const { city, weatherData } = useWeatherContext();
+  const { weatherData } = useWeatherContext();
 
   const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-  console.log(typeof weatherData);
 
   return (
     <>

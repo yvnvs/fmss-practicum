@@ -1,4 +1,5 @@
 import React, { createContext, useEffect, useState, useContext } from "react";
+import dynamic from "next/dynamic";
 
 import axios from "axios";
 import data from "../../Mocks/Cities.json";
@@ -39,4 +40,4 @@ export const WeatherProvider = ({ children }) => {
     <WeatherContext.Provider value={values}>{children}</WeatherContext.Provider>
   );
 };
-export default useWeatherContext = () => useContext(WeatherContext);
+export const useWeatherContext = () => useContext(WeatherContext);
