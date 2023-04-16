@@ -1,4 +1,4 @@
-import { createContext, useEffect, useState, useContext } from "react";
+import React, { createContext, useEffect, useState, useContext } from "react";
 import axios from "axios";
 import data from "../../Mocks/Cities.json";
 
@@ -11,7 +11,6 @@ export const WeatherProvider = ({ children }) => {
 
   useEffect(() => {
     let selectCities = cities.filter((item) => item.name === city)[0];
-    console.log(selectCities);
 
     const key = "367a3edfd717872adbc82fa788bdb08a";
 
